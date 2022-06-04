@@ -1,0 +1,1 @@
+Q1. Write a program to create a shared memory segment of 2048 bytes and write some content into it. Then create a child process which then reads the content written by the parent process in the shared memory segment
