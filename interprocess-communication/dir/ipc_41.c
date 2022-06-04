@@ -25,5 +25,5 @@ int main()
 	read(0, buff, 100);
 	// copy and write data to shared memory
 	strcpy(shared_memory, buff);
-	printf("The data written successfully on the shared memory segment");
+	printf("The data written successfully on the shared memory segment\n");
 }

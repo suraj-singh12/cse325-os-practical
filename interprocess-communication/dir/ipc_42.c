@@ -20,10 +20,6 @@ int main()
 	// attached to shared memory
 	printf("The process is attached at the shared memory at: %p\n", shared_memory);
 
-	//writing into shared memory
-	printf("Enter the data to write to the shared memory:\n");
-	read(0, buff, 100);
-	// copy and write data to shared memory
-	strcpy(shared_memory, buff);
-	printf("The data written successfully on the shared memory segment");
+	// reading from shared memory
+	printf("The data read from shared memory is: %s\n", (char*)shared_memory);
 }
